@@ -1,0 +1,38 @@
+body,html {
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+/*  padding: 0.6em 1em 1em 1em; */
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+a {color: #4d67ca;}
+
+span.description-text{
+		font: 9pt verdana;
+	}
+	
+#logoimage {
+	margin: auto;
+	text-align: center;
+	margin-top: 20%;
+	padding: 0px;
+}
+
+#logolinks {
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+}
+
+#logolinks a {
+	font: 14pt verdana;
+}
+
+h6 {
+	padding: 0px;
+	margin: 0px;
+}
+
+

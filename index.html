@@ -1,1 +1,87 @@
-Nothing to see here yet...
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta name="generator" content="HTML Tidy, see www.w3.org">
+
+        <title>Inkitecture</title>
+
+        <meta name="author" content=
+        "Inkitecture.com Static Content Team">
+        <meta name="description" content=
+        "Inkitecture Company Site">
+        <meta name="keywords" content="">
+        <meta http-equiv="content-type" content=
+        "text/html; charset=ISO-8859-1">
+        <meta http-equiv="Content-Script-Type" content=
+        "text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+		
+		<link rel="stylesheet" href="inkitecture.css">
+		<link rel="alternate" type="application/atom+xml" title="Inkitecture - Atom" href="http://blog.inkitecture.com/feeds/posts/default" />
+		<link rel="alternate" type="application/rss+xml" title="Inkitecture - RSS" href="http://blog.inkitecture.com/feeds/posts/default?alt=rss" />
+
+
+    </head>
+
+    <body>
+	<script type="text/javascript">
+		function toggleProjectDisplay() {
+			document.getElementById("peopleMenu").style.display = "none";
+			if(document.getElementById("projectMenu").style.display == "none" ) {
+				document.getElementById("projectMenu").style.display = "";
+			}
+			else {
+				document.getElementById("projectMenu").style.display = "none";
+			}
+		}
+		
+		function togglePeopleDisplay() {
+			document.getElementById("projectMenu").style.display = "none";
+			if(document.getElementById("peopleMenu").style.display == "none" ) {
+				document.getElementById("peopleMenu").style.display = "";
+			}
+			else {
+				document.getElementById("peopleMenu").style.display = "none";
+			}
+		}
+	</script>
+	<div id="logoimage">
+		<img src="./images/inkitecture-600.png">
+	</div>
+
+	<div id="logolinks">
+		<a href="#" onclick="togglePeopleDisplay();">people</a> | <a href="#" onclick="toggleProjectDisplay();">projects</a> | <a href="http://blog.inkitecture.com/">blog</a> | <a href="http://www.twitter.com/inkitecture/">twitter</a> | <a href="mailto:info@inkitecture.com">contact</a>
+	</div>
+
+	<div id="peopleMenu" style="display: none; text-align: left; margin: auto; padding: 0 0 0 100px; width: 250px;"> 
+		<hr />
+		<h6>Jay Zeschin</h6>
+		<span class="description-text">
+			<a href="http://unstuck.zeschin.org/">Tumblr</a> | <a href="http://www.twitter.com/jayzes">Twitter</a> | <a href="http://www.new.facebook.com/profile.php?id=2401224">Facebook</a> | <a href="http://www.linkedin.com/pub/5/905/400">LinkedIn</a></span>
+		<hr />
+		<h6>Drew McKinney</h6>
+		<span class="description-text">
+			<a href="http://www.drewidia.com/">Blog</a> | <a href="http://www.twitter.com/drewmckinney">Twitter</a> | <a href="http://www.new.facebook.com/profile.php?id=574413729">Facebook</a> | <a href="http://www.linkedin.com/profile?viewProfile=&key=4546203">LinkedIn</a></span>
+		<hr />
+		<h6>Kunal Kadakia</h6>
+		<hr />
+	</div>
+	<div id="projectMenu" style="display: none; text-align: left; margin: auto; padding: 0 0 0 100px; width: 250px;"> 
+		<hr />
+		<a href="http://www.payowe.com">PayOwe</a><br /><span class="description-text"><br />Manage your everyday debts and loans through PayOwe</span>
+		<hr />
+		<a href="http://www.bagvsbin.com">Bag vs. Bin</a><br /><span class="description-text"><br />Figure out ahead of time whether your bag will fit on the plane</span>
+		<hr />
+		<a href="http://www.craigsmonitor.com">Craigsmonitor</a><br /><span class="description-text"><br />Get email updates on Craigslist items you want.</span>
+		<hr />
+	</div>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-345190-8");
+		pageTracker._trackPageview();
+	</script>
+</body>
+</html>
