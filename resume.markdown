@@ -1,7 +1,7 @@
 ---
 title: Resume
 ---
-# Jonathan “Jay” Zeschin
+# Jonathan "Jay" Zeschin
 ## jay@zeschin.org	~	530 E. 20th Ave #3316, Denver, CO 80205	~	720.273.9549
 
 # QUALIFICATIONS
